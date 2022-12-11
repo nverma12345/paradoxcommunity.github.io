@@ -1,0 +1,2 @@
+# paradox-community
+#paradoxvip, #paradoxcommunity
