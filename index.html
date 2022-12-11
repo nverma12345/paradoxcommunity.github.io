@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<head>
+    <title>PARADOX</title>
+    <meta name="description" content="We are PARADOX, We are one, We are legion">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="PARADOX OFFICIAL">
+    <meta property="og:description" content="We are PARADOX, The Curse to Krafton">
+    <meta property="og:image" content="images/Logo.png">
+    <meta property="og:url" content="/">
+    <meta property="og:site_name" content="PARADOX OFFICIAL">
+    <meta name="twitter:title" content="PARADOX OFFICIAL">
+    <meta name="twitter:description" content="We are PARADOX, The Curse to Krafton">
+    <meta name="twitter:image" content="images/Logo.png">
+    <meta name="twitter:creator" content="@PARADOX">
+    <meta name="theme-color" content="#0F2027">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <meta name="robots" content="index, follow">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/Logo.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/Logo.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/Logo.ico">
+    <link rel="manifest" href="site.html">
+    <style>
+        html {
+            visibility: hidden;
+            opacity: 0;
+        }
+    </style>
+    <script>
+        var links = ["css/augmented-ui.min.css", "css/style.css"];
+
+        links.forEach(addLink)
+
+        function addLink(value) {
+            var link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.type = "text/css";
+            link.href = value;
+            document.getElementsByTagName('HEAD')[0].appendChild(link);
+        }
+    </script>
+    <script>
+        // disable right click
+        document.addEventListener('contextmenu', event => event.preventDefault());
+     
+        document.onkeydown = function (e) {
+     
+            // disable F12 key
+            if(e.keyCode == 123) {
+                return false;
+            }
+     
+            // disable I key
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+                return false;
+            }
+     
+            // disable J key
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                return false;
+            }
+     
+            // disable U key
+            if(e.ctrlKey && e.keyCode == 85) {
+                return false;
+            }
+        }
+     
+    </script>
+
+<script>
+    document.onkeydown = function(e) {
+    if(event.keyCode == 123) {
+    return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'H'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'A'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'F'.charCodeAt(0)){
+    return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+    return false;
+    }
+    }
+    </script>
+    
+</head>
+
+<body>
+    <div id="bg-img"></div>
+    <canvas id="bg-overlay"></canvas>
+    <header>
+        <div class="header-card m20">
+            <div class="logo-wrapper link" onclick="location.href='index.html';">
+                <div class="logo">
+                    <img class="logo-img" src="images/Logo.png">
+                </div>
+                <h1 class="title cyan-text">PARADOX<br><span class="white-text">OFFICIAL</span><br></h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div data-augmented-ui="tl-clip tr-clip br-2-clip-x bl-2-clip-x both" class="aui-theme intro-card m10">
+                <h2 class="card-title white-text">We are PARADOX</h2>
+                <p class="cyan-text sub-intro">
+                    <b>White hat hacking</b> is something we do at <b>PARADOX</b>, and we provide a lot of resources, tools, and <b>hacking</b> techniques on our official <b>Telegram</b> and <b>Discord</b> channels. So stay tuned and use <b>Paradox</b> to take your gaming to the next level.
+                    <br><br>
+                    <strong class="green-text">Free and available to all</strong>
+                    <br><br> We are PARADOX, We are one, We are legion.
+                </p>
+                <div class="link join-btn m20" onclick="window.open('https://discord.com/invite/KqQv6evn4R');">
+                    <div data-augmented-ui="tl-clip br-clip both" class="aui-theme-btn join-btn white-text">CONNECT</div>
+                </div>
+            </div>
+            <div class="link join-btn m20" onclick="window.open('https://paradox-vip.com');">
+                <div data-augmented-ui="tl-clip br-clip both" class="aui-theme-btn join-btn white-text">PARADOX WEBSITE</div>
+            </div>
+            <div class="link join-btn m20" onclick="window.open('https://mail.paradox-vip.com');">
+                <div data-augmented-ui="tl-clip br-clip both" class="aui-theme-btn join-btn white-text">PARADOX MAIL</div>
+            </div>
+
+            <div class="nav-menu m20">
+                <div class="data-tilt" onclick="location.href='https://discord.com/invite/KqQv6evn4R';">
+                    <div data-augmented-ui="all-hexangle-up both" class="aui-theme nav-menu-item link"></div>
+                    <img class="nav-img lazyload sub-tilt" alt="nverma12345-github" src="images/social/github.svg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="images/social/github.svg">
+                </div>
+                <div class="data-tilt" onclick="location.href='https://t.me/paradoxhacks';">
+                    <div data-augmented-ui="all-hexangle-down both" class="aui-theme nav-menu-item link"></div>
+                    <img class="nav-img lazyload sub-tilt" alt="nverma12345-telegram" src="images/social/web.svg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="images/social/web.svg">
+                </div>
+                <div class="data-tilt" onclick="location.href='https://twitter.com/nishant88026018';">
+                    <div data-augmented-ui="all-hexangle-up both" class="aui-theme nav-menu-item link"></div>
+                    <img class="nav-img lazyload sub-tilt" alt="nverma12345-twitter" src="images/social/twitter.svg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="images/social/twitter.svg">
+                </div>
+            </div>
+
+            <h2 class="card-title white-text">PARADOX COMMUNITY</h2>
+
+            <div class="slider">
+
+                <div class="member-card-wrapper data-tilt">
+                    <div data-augmented-ui="tr-clip bl-clip br-2-clip-y both" class="member-card aui-theme"></div>
+                    <div class="member-sub-card sub-tilt">
+                        <div class="member-meta-left">
+                            <div data-augmented-ui="tr-clip bl-clip border" class="aui-theme member-img-wrapper">
+                                <img class="member-img lazyload" src="images/team/anonymousking.gif" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="images/team/anonymousking.gif">
+                            </div>
+                        </div>
+                        <div class="member-meta-right">
+                            <span class="member-name cyan-text">PARADOX</span>
+                            <span class="member-title yellow-text">Founder</span>
+                            <div class="social-bar">
+
+
+
+                                <button class="social-btn link" onclick="window.open('https://paradox-vip.com/');">
+								<img class="social-img lazyload" alt="nverma12345 website" src="images/social/web.svg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="images/social/web.svg">
+							</button>
+
+
+
+                                <button class="social-btn link" onclick="window.open('https://github.com/nverma12345');">
+								<img class="social-img lazyload" alt="nverma12345 github" src="images/social/github.svg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="images/social/github.svg">
+							</button>
+
+
+
+                                <button class="social-btn link" onclick="window.open('https://twitter.com/nishant88026018');">
+								<img class="social-img lazyload" alt="nverma12345 twitter" src="images/social/twitter.svg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="images/social/twitter.svg">
+							</button>
+
+
+
+                                <button class="social-btn link" onclick="window.open('https://instagram.com/attitude.unique_king/');">
+								<img class="social-img lazyload" alt="nverma12345 linkedin" src="images/social/instagram.svg" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="images/social/instagram.svg">
+							</button>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            <script src="js/lazysizes.min.js"></script>
+            <script src="js/vanilla-tilt.min.js"></script>
+
+            <script>
+                VanillaTilt.init(document.querySelectorAll(".data-tilt"), {
+                    speed: 1000,
+                    gyroscope: true
+                });
+            </script>
+
+        </div>
+    </main>
+
+    <footer>
+        <div data-augmented-ui="tl-2-clip-x tr-2-clip-x both" class="aui-theme footer">
+            <div class="footer-text">
+                <span class="cyan-text">Designed With Code By
+					<a href="index.html" target="_blank"> PARADOX </a>
+					
+				</span>
+                <br>
+                <span class="cyan-text"><strong> Init :</strong> January 2019</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/hexanim.js"></script>
+    <script src="js/msg.js"></script>
+</body>
+
+</html>
